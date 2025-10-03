@@ -1,5 +1,10 @@
-# in the repo folder
-git init
-echo "# excel-auto-dashboard" > README.md
-git add README.md
-git commit -m "chore: initial commit"
+# CSV → Excel Dashboard (xlwings)
+
+## Setup
+```bash
+python -m venv .venv
+# Windows:
+.venv\Scripts\activate
+# macOS/Linux:
+source .venv/bin/activate
+pip install -r requirements.txt
