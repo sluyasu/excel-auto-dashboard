@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+node_modules/
+.git/objects/
+dist/
+build/
+.cache/
+*.xlsx
+*.xlsm
+*.xlsb
+*.xls
+**/*.csv
+**/*.zip
+**/*.parquet
+**/.ipynb_checkpoints/
